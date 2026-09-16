@@ -127,7 +127,7 @@ def run_demo():
             content="Too short"  # Min length 10 required
         )
     except ValueError as e:
-        print(f"Caught expected validation error:\n{e}")
+        print(f"Caught expected validation errors:\n{e}")
 
 
 if __name__ == "__main__":
